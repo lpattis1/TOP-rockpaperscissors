@@ -1,0 +1,57 @@
+.winner {
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+    margin-bottom: 2rem;
+    font-size: 5rem;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+ 
+}
+
+.game {
+    border: .1rem solid black;
+    padding: 2rem;
+    height: 25vh;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.competitors {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.player {
+    margin-right: 2rem;
+}
+
+.player-selection-text, .computer-selection-text {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.player-selection, .computer-selection {
+    padding: 1rem .5rem;
+    text-align: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.go-btn {
+    padding: 1rem 3rem;
+    font-size: 1.6rem;
+}
